@@ -3,13 +3,13 @@ import React from 'react';
 
 const styles = {
   headerStyle: {
-    backgroungImage: `url('')`,
+    backgroungImage: `url(../images/blue-skyline.jpeg)`,
   },
 };
 
 function Header() {
   return (
-    <header className="header">
+    <header className="header" style={styles.headerStyle}>
       <h1>Jessie Guadarrama</h1>
     </header>
   );
