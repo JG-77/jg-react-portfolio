@@ -29,7 +29,10 @@ export default function PortfolioContent() {
   return (
     <div>
       <Header />
-      <Navigation />
+      <Navigation
+        currentSection={currentSection}
+        changeSection={changeSection}
+      />
       {displaySection()}
       <Footer />
     </div>

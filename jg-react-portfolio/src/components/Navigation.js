@@ -1,7 +1,7 @@
 //Navbar element set up
 import React from 'react';
 
-function Navigation() {
+function Navigation({ currentSection, changeSection }) {
   return (
     <ul>
       <li>
