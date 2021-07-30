@@ -1,7 +1,16 @@
 .header {
-  background-image: url(./images/SD-skyline.jpeg);
+  /* background-image: "url('./images/SD-skyline.jpeg')"; */
+  background-color: black;
+  min-height: 200px;
+  display: flex;
 }
 
 .heading {
-  font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', 'sans-serif';
+  /* font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', 'sans-serif'; */
+  color: white;
+  font-family: Garamond, serif;
+  font-size: 50px;
+  margin: 0 auto;
+  line-height: 175px;
+  margin-left: 10px;
 }
