@@ -5,16 +5,24 @@ function Navigation() {
   return (
     <ul>
       <li>
-        <a href="#About">About Me</a>
+        <a href="#About" onClick={() => changeSection('About')}>
+          About Me
+        </a>
       </li>
       <li>
-        <a href="#Portfolio">Portfolio</a>
+        <a href="#Portfolio" onClick={() => changeSection('Portfolio')}>
+          Portfolio
+        </a>
       </li>
       <li>
-        <a href="#Resume">Resume</a>
+        <a href="#Resume" onClick={() => changeSection('Resume')}>
+          Resume
+        </a>
       </li>
       <li>
-        <a href="#Contact">Contact</a>
+        <a href="#Contact" onClick={() => changeSection('Contact')}>
+          Contact
+        </a>
       </li>
     </ul>
   );
