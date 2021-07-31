@@ -1,0 +1,20 @@
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.ul {
+  list-style-type: none;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.anchor {
+  color: red;
+  margin-right: 40px;
+}
+
+.anchorActive {
+  color: rgb(56, 160, 15);
+  margin-right: 40px;
+}
