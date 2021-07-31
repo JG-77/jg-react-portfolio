@@ -12,9 +12,11 @@
 .anchor {
   color: red;
   margin-right: 40px;
+  text-decoration: none;
 }
 
 .anchorActive {
   color: rgb(56, 160, 15);
   margin-right: 40px;
+  text-decoration: none;
 }
