@@ -11,6 +11,7 @@ const styles = {
     color: 'white',
     border: 'solid',
     margin: '0px 20px 0px 20px',
+    height: '450px',
   },
   form: {
     textAlign: 'start',
