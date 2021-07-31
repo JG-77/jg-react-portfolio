@@ -18,7 +18,7 @@ const styles = {
     flexWrap: 'flex',
   },
   anchor: {
-    marginRight: '40px',
+    marginRight: '75px',
     color: 'rgb(0, 255, 213)',
     textDecoration: 'none',
   },
@@ -35,7 +35,7 @@ export default function Footer() {
                 style={styles.anchor}
                 href="https://www.linkedin.com/in/jessieguadarrama7/"
               >
-                Linkedin
+                LinkedIn
               </a>
             </li>
             <li>

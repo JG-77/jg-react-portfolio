@@ -27,7 +27,12 @@ export default function PortfolioContent() {
   const changeSection = (content) => setSection(content);
 
   return (
-    <div>
+    <div
+      style={{
+        background:
+          'linear-gradient(180deg, rgb(32, 32, 32), rgb(0, 255, 179))',
+      }}
+    >
       <Header />
       <Navigation
         currentSection={currentSection}

@@ -10,13 +10,13 @@
 }
 
 .anchor {
-  color: red;
+  color: white;
   margin-right: 40px;
   text-decoration: none;
 }
 
 .anchorActive {
-  color: rgb(56, 160, 15);
+  color: black;
   margin-right: 40px;
   text-decoration: none;
 }
