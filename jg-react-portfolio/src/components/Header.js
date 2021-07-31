@@ -1,11 +1,12 @@
 //element set up
 import React from 'react';
 import '../styles/Header.css';
+import blueSkyline from '../images/blue-skyline.jpeg';
 
 const styles = {
   headerStyle: {
     //   image not loading
-    // backgroundImage: `url(./images/SD-skineline.jpeg)`,
+    backgroundImage: `url(${blueSkyline})`,
   },
 };
 

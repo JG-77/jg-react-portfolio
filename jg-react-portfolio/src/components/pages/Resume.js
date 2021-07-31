@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from '../../assets/Professional-Resume.pdf';
 
 export default function Resume() {
   return (
@@ -6,12 +7,7 @@ export default function Resume() {
       <h2>Resume</h2>
       <h3>
         {`Download My `}
-        {/* file not working */}
-        <a
-          href="./assets/Professional-Resume.pdf"
-          download="Professional-Resume.pdf"
-          target="_blank"
-        >
+        <a href={resume} download="Professional-Resume.pdf" target="_blank">
           Resume
         </a>
       </h3>
