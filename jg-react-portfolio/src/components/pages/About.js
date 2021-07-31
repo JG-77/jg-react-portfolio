@@ -14,11 +14,19 @@ const styles = {
     color: 'white',
   },
   paragraph: {
-    margin: '0px 50px 0px',
+    margin: '0px 10px 0px 0px',
     textAlign: 'justify',
-    fontSize: '18px',
+    fontSize: '15px',
     textIndent: '2em',
-    lineHeight: '25px',
+    lineHeight: '21px',
+  },
+  //will be used for image
+  imagediv: {
+    float: 'left',
+    height: '300px',
+    width: '300px',
+    marginLeft: '10px',
+    border: 'solid',
   },
 };
 
@@ -26,6 +34,9 @@ export default function About() {
   return (
     <div style={styles.divSect}>
       <h2 style={styles.aboutMeHead}>About Me</h2>
+      <div style={styles.imagediv}>
+        <img src="./images/IMG_6121.JPEG" alt="Jessie Guadarrama" />
+      </div>
       <p style={styles.paragraph}>
         A dedicated and persistent web developer, I earned my education and
         experience from UC San Diego Extension Coding Bootcamp with a
