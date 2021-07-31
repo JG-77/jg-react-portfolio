@@ -12,7 +12,6 @@ function Navigation({ currentSection, changeSection }) {
             href="#About"
             onClick={() => changeSection('About')}
           >
-            {/* className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'} */}
             About Me
           </a>
         </li>
