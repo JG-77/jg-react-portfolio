@@ -12,11 +12,14 @@ const styles = {
   },
   messageInput: {
     height: '100px',
-    width: '250px',
+    width: '500px',
     marginBottom: '20px',
+    marginTop: '5px',
   },
   inputs: {
     marginBottom: '20px',
+    width: '500px',
+    marginTop: '5px',
   },
 };
 
