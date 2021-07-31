@@ -1,4 +1,5 @@
 import React from 'react';
+import myPic from '../../images/myPic.JPEG';
 
 const styles = {
   aboutMeHead: {
@@ -27,6 +28,14 @@ const styles = {
     width: '300px',
     marginLeft: '10px',
     border: 'solid',
+    marginRight: '10px',
+  },
+  image: {
+    maxHeight: '350px',
+    minWidth: '300px',
+    height: '300px',
+    width: '300px',
+    // marginLeft: '10px',
   },
 };
 
@@ -35,7 +44,7 @@ export default function About() {
     <div style={styles.divSect}>
       <h2 style={styles.aboutMeHead}>About Me</h2>
       <div style={styles.imagediv}>
-        <img src="./images/IMG_6121.JPEG" alt="Jessie Guadarrama" />
+        <img src={myPic} alt="Jessie Guadarrama" style={styles.image} />
       </div>
       <p style={styles.paragraph}>
         A dedicated and persistent web developer, I earned my education and

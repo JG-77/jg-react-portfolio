@@ -5,8 +5,11 @@ import blueSkyline from '../images/blue-skyline.jpeg';
 
 const styles = {
   headerStyle: {
-    //   image not loading
     backgroundImage: `url(${blueSkyline})`,
+    //backgroundSize: 'cover',
+    //width: '100%',
+    //height: '150px',
+    backgroundPosition: 'right',
   },
 };
 
