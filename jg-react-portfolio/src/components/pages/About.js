@@ -3,14 +3,20 @@ import React from 'react';
 const styles = {
   aboutMeHead: {
     textAlign: 'center',
+    fontSize: '30px',
   },
   divSect: {
+    background: 'rgba(0, 0, 0, 0.7)',
     border: 'solid',
     margin: '0px 20px 0px',
     fontFamily: 'arial',
+    height: '350px',
+    color: 'white',
   },
   paragraph: {
-    margin: '0px 20px 15px',
+    margin: '0px 50px 0px',
+    textAlign: 'justify',
+    fontSize: '18px',
   },
 };
 

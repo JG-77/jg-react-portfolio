@@ -8,6 +8,9 @@ import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 
+//remove body element margins on web page
+document.body.style.margin = '0px';
+
 export default function PortfolioContent() {
   const [currentSection, setSection] = useState('About');
 

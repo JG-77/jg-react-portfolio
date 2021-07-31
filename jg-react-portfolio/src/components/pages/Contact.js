@@ -3,12 +3,19 @@ import React from 'react';
 const styles = {
   contactHead: {
     textAlign: 'center',
+    fontSize: '30px',
   },
   divSect: {
+    background: 'rgba(0, 0, 0, 0.7)',
     fontFamily: 'arial',
+    color: 'white',
+    border: 'solid',
+    margin: '0px 20px 0px 20px',
   },
   form: {
     textAlign: 'start',
+    marginLeft: '10px',
+    fontSize: '18px',
   },
   messageInput: {
     height: '100px',
@@ -20,6 +27,9 @@ const styles = {
     marginBottom: '20px',
     width: '500px',
     marginTop: '5px',
+  },
+  submit: {
+    marginBottom: '20px',
   },
 };
 
@@ -39,7 +49,7 @@ export default function Contact() {
         <input type="email" name="email" style={styles.inputs} /> <br />
         <label for="message">Message:</label> <br />
         <input type="text" name="message" style={styles.messageInput} /> <br />
-        <input type="submit" value="Submit" />
+        <input type="submit" value="Submit" style={styles.submit} />
       </form>
     </div>
   );
