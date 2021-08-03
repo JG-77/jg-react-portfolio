@@ -9,6 +9,8 @@ const styles = {
     fontFamily: 'arial',
     //height: '450px',
     color: 'white',
+    flexWrap: 'wrap',
+    display: 'inline-block',
   },
   h2: {
     textAlign: 'center',
@@ -16,12 +18,13 @@ const styles = {
   card: {
     //background: 'rgba(0, 0, 0, 0.7)',
     border: 'solid',
-    margin: '0px 20px 20px',
+    margin: '0px 10px 10px 10px',
     //fontFamily: 'arial',
     //height: '450px',
     color: 'white',
-    width: '50%',
+    width: '47%',
     textAlign: 'center',
+    display: 'inline-block',
   },
   cardimg: {
     maxHeight: '250px',
