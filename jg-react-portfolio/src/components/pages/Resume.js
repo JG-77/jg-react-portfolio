@@ -18,6 +18,9 @@ const styles = {
     marginLeft: '10px',
     fontSize: '18px',
   },
+  anchor: {
+    color: 'white',
+  },
 };
 export default function Resume() {
   return (
@@ -25,9 +28,15 @@ export default function Resume() {
       <h2 style={styles.h2}>Resume</h2>
       <h3 style={styles.h3}>
         {`Download My `}
-        <a href={resume} download="Professional-Resume.pdf" target="_blank">
+        <a
+          href={resume}
+          download="Professional-Resume.pdf"
+          target="_blank"
+          style={styles.anchor}
+        >
           Resume
         </a>
+        {/* need to add proficiencies */}
       </h3>
     </div>
   );
