@@ -1,6 +1,10 @@
 import React from 'react';
 import fitnessNuts from '../../images/Fitness-Nuts.png';
 import noteTaker from '../../images/Note-Taker-App.png';
+import teamProfile from '../../images/Team Profile Gen.png';
+import budgetTracker from '../../images/budget-tracker-app.png';
+import fitnessTracker from '../../images/Fitness-tracker.png';
+import movieBuffs from '../../images/Movie-Buffs.png';
 
 const styles = {
   divSect: {
@@ -14,25 +18,46 @@ const styles = {
   },
   h2: {
     textAlign: 'center',
+    fontSize: '30px',
   },
-  cardLeft: {
+  // cardLeft: {
+  //   border: 'solid',
+  //   margin: '0px 20px 10px 10px',
+  //   color: 'white',
+  //   width: '45%',
+  //   textAlign: 'center',
+  //   display: 'inline-block',
+  //   backgroundColor: '#062018',
+  // },
+  // cardRight: {
+  //   border: 'solid',
+  //   margin: '0px 20px 10px 10px',
+  //   color: 'white',
+  //   width: '45%',
+  //   textAlign: 'center',
+  //   display: 'inline-block',
+  //   float: 'right',
+  //   backgroundColor: '#062018',
+  // },
+  card: {
     border: 'solid',
     margin: '0px 20px 10px 10px',
     color: 'white',
     width: '45%',
-    textAlign: 'center',
+    //textAlign: 'center',
     display: 'inline-block',
-    backgroundColor: '#062018',
+    //float: 'right',
+    //backgroundColor: '#062018',
   },
   cardRight: {
     border: 'solid',
     margin: '0px 20px 10px 10px',
     color: 'white',
     width: '45%',
-    textAlign: 'center',
+    //textAlign: 'center',
     display: 'inline-block',
     float: 'right',
-    backgroundColor: '#062018',
+    //backgroundColor: '#062018',
   },
   cardimg: {
     maxHeight: '250px',
@@ -59,7 +84,10 @@ export default function Portfolio() {
     <div style={styles.divSect}>
       <h2 style={styles.h2}>Portfolio</h2>
       {/* first card styling and html set up */}
-      <div style={styles.cardLeft}>
+      {/* <div
+        style={styles.cardLeft}
+        style={{ backgroundImage: `url(${fitnessNuts})` }}
+      >
         <a href="https://fitness-nuts.herokuapp.com/">
           <img
             style={styles.cardimg}
@@ -84,8 +112,9 @@ export default function Portfolio() {
           </a>
         </p>
       </div>
+
       {/* Second card styling and html set up */}
-      <div style={styles.cardRight}>
+      {/* <div style={styles.cardRight}>
         <a href="https://rocky-waters-73289.herokuapp.com/">
           <img style={styles.cardimg} src={noteTaker} alt="Note-taker-app" />
         </a>
@@ -110,6 +139,30 @@ export default function Portfolio() {
             GitHub Repository
           </a>
         </p>
+      </div> */}
+      {/* app 1 */}
+      <div style={styles.card}>
+        <img src={fitnessNuts} style={styles.cardimg} />
+      </div>
+      {/* app2 */}
+      <div style={styles.cardRight}>
+        <img src={noteTaker} style={styles.cardimg} />
+      </div>
+      {/* app 3 */}
+      <div style={styles.card}>
+        <img src={teamProfile} style={styles.cardimg} />
+      </div>
+      {/* app 4 */}
+      <div style={styles.cardRight}>
+        <img src={budgetTracker} style={styles.cardimg} />
+      </div>
+      {/* app 5 */}
+      <div style={styles.card}>
+        <img src={fitnessTracker} style={styles.cardimg} />
+      </div>
+      {/* app 6 */}
+      <div style={styles.cardRight}>
+        <img src={movieBuffs} style={styles.cardimg} />
       </div>
     </div>
   );
