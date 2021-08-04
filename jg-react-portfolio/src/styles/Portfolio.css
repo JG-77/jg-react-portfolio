@@ -2,10 +2,9 @@
   display: none;
 }
 
-/* .reveal:hover {
+.reveal:hover {
   display: block;
-} */
-.card:hover ~ .reveal {
+}
+.card:hover {
   background-image: none;
-  display: block;
 }
