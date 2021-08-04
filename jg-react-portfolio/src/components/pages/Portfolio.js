@@ -85,35 +85,18 @@ const styles = {
     backgroundImage: `url(${movieBuffs})`,
     backgroundSize: 'cover',
   },
-  // cardimg: {
-  //   height: '250px',
-  //   maxWidth: '100%',
-  //   display: 'flex',
-  //   flexWrap: 'wrap',
-  //   objectFill: 'fill',
-  //   width: '100%',
+  // pTag: {
+  //   textAlign: 'justify',
+  //   margin: '0px 10px 0px',
   // },
-  pTag: {
-    textAlign: 'justify',
-    margin: '0px 10px 0px',
-  },
   anchor: {
     color: 'rgb(0, 255, 213)',
     textDecoration: 'none',
   },
-  // gitLink: {
-  //   color: 'rgb(0, 255, 213)',
-  //   //textDecoration: 'none',
-  // },
-  // imgg: {
-  //   backgroundImage: `url(${fitnessNuts})`,
-  //   height: '250px',
-  //   maxWidth: '100%',
-  //   display: 'flex',
-  //   flexWrap: 'wrap',
-  //   objectFill: 'fill',
-  //   width: '100%',
-  // },
+  anchorApp: {
+    color: 'white',
+    //textDecoration: 'none',
+  },
 };
 
 export default function Portfolio() {
@@ -122,10 +105,16 @@ export default function Portfolio() {
       <h2 style={styles.h2}>Portfolio</h2>
 
       {/* app 1 */}
-      <a href="https://fitness-nuts.herokuapp.com/">
-        <div style={styles.card} className="card">
+
+      <div style={styles.card} className="card">
+        <div className="overlay">
           <h2 style={styles.h2} className="reveal">
-            Fitness Nuts Project
+            <a
+              href="https://fitness-nuts.herokuapp.com/"
+              style={styles.anchorApp}
+            >
+              Fitness Nuts Project
+            </a>
           </h2>
           <h2 style={styles.h2} className="reveal">
             <a
@@ -137,12 +126,19 @@ export default function Portfolio() {
             </a>
           </h2>
         </div>
-      </a>
+      </div>
+
       {/* app2 */}
-      <a href="https://rocky-waters-73289.herokuapp.com/">
-        <div style={styles.card2} className="card">
+
+      <div style={styles.card2} className="card">
+        <div className="overlay">
           <h2 style={styles.h2} className="reveal">
-            Note-Taker App
+            <a
+              href="https://rocky-waters-73289.herokuapp.com/"
+              style={styles.anchorApp}
+            >
+              Note-Taker App
+            </a>
           </h2>
           <h2 style={styles.h2} className="reveal">
             <a
@@ -154,12 +150,19 @@ export default function Portfolio() {
             </a>
           </h2>
         </div>
-      </a>
+      </div>
+
       {/* app 3 */}
-      <a href="https://github.com/JG-77/Team-Profile-Generator-JG.git">
-        <div style={styles.card3} className="card">
+
+      <div style={styles.card3} className="card">
+        <div className="overlay">
           <h2 style={styles.h2} className="reveal">
-            Team Profile Generator
+            <a
+              href="https://github.com/JG-77/Team-Profile-Generator-JG.git"
+              style={styles.anchorApp}
+            >
+              Team Profile Generator
+            </a>
           </h2>
           <h2 style={styles.h2} className="reveal">
             <a
@@ -171,12 +174,19 @@ export default function Portfolio() {
             </a>
           </h2>
         </div>
-      </a>
+      </div>
+
       {/* app 4 */}
-      <a href="https://pwa-budget-tracker-jg.herokuapp.com/">
-        <div style={styles.card4} className="card">
+
+      <div style={styles.card4} className="card">
+        <div className="overlay">
           <h2 style={styles.h2} className="reveal">
-            Budget Tracker
+            <a
+              href="https://pwa-budget-tracker-jg.herokuapp.com/"
+              style={styles.anchorApp}
+            >
+              Budget Tracker
+            </a>
           </h2>
           <h2 style={styles.h2} className="reveal">
             <a
@@ -188,12 +198,19 @@ export default function Portfolio() {
             </a>
           </h2>
         </div>
-      </a>
+      </div>
+
       {/* app 5 */}
-      <a href="https://workout-tracker-jg.herokuapp.com/">
-        <div style={styles.card5} className="card">
+
+      <div style={styles.card5} className="card">
+        <div className="overlay">
           <h2 style={styles.h2} className="reveal">
-            Fitness Tracker
+            <a
+              href="https://workout-tracker-jg.herokuapp.com/"
+              style={styles.anchorApp}
+            >
+              Fitness Tracker
+            </a>
           </h2>
           <h2 style={styles.h2} className="reveal">
             <a
@@ -205,13 +222,19 @@ export default function Portfolio() {
             </a>
           </h2>
         </div>
-      </a>
+      </div>
+
       {/* app 6 */}
 
-      <a href="https://jg-77.github.io/Movie-Buffs-Group-Project/">
-        <div style={styles.card6} className="card">
+      <div style={styles.card6} className="card">
+        <div className="overlay">
           <h2 style={styles.h2} className="reveal">
-            Movie Buffs Project
+            <a
+              href="https://jg-77.github.io/Movie-Buffs-Group-Project/"
+              style={styles.anchorApp}
+            >
+              Movie Buffs Project
+            </a>
           </h2>
           <h2 style={styles.h2} className="reveal">
             <a
@@ -223,7 +246,7 @@ export default function Portfolio() {
             </a>
           </h2>
         </div>
-      </a>
+      </div>
     </div>
   );
 }

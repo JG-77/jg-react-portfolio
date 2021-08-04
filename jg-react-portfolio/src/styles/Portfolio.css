@@ -1,10 +1,13 @@
-.reveal {
-  display: none;
+.overlay {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgb(4, 7, 118);
+  background-size: cover;
+  min-height: 250px;
+  padding-top: 1px;
 }
-
-.reveal:hover {
-  display: block;
-}
-.card:hover {
-  background-image: none;
+.card:hover .overlay {
+  opacity: 1;
 }
