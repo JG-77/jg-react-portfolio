@@ -15,11 +15,28 @@ const styles = {
     fontSize: '30px',
   },
   h3: {
-    marginLeft: '10px',
+    marginLeft: '30px',
     fontSize: '18px',
+  },
+  front: {
+    marginLeft: '30px',
+    fontSize: '18px',
+    float: 'left',
+  },
+  back: {
+    marginRight: '30px',
+    fontSize: '18px',
+    float: 'right',
   },
   anchor: {
     color: 'white',
+  },
+  ul: {
+    fontSize: '15px',
+    listStyleType: 'disclosure-closed',
+  },
+  li: {
+    marginBottom: '10px',
   },
 };
 export default function Resume() {
@@ -36,7 +53,31 @@ export default function Resume() {
         >
           Resume
         </a>
-        {/* need to add proficiencies */}
+      </h3>
+      <h3 style={styles.front}>
+        Front-end Proficencies
+        <ul style={styles.ul}>
+          <li style={styles.li}>HTML</li>
+          <li style={styles.li}>CSS</li>
+          <li style={styles.li}>Bootstrap</li>
+          <li style={styles.li}>Javascript</li>
+          <li style={styles.li}>JQuery</li>
+          <li style={styles.li}>React.js</li>
+          <li style={styles.li}>Responsive Design</li>
+        </ul>
+      </h3>
+      <h3 style={styles.back}>
+        Back-end Proficencies
+        <ul style={styles.ul}>
+          <li style={styles.li}>Node.js</li>
+          <li style={styles.li}>Express.js</li>
+          <li style={styles.li}>MySQL, Sequelize</li>
+          <li style={styles.li}>MongoDB, Mongoose</li>
+          <li style={styles.li}>API's</li>
+          <li style={styles.li}>REST</li>
+          <li style={styles.li}>Web Performance Optimization</li>
+          <li style={styles.li}>GraphQL</li>
+        </ul>
       </h3>
     </div>
   );

@@ -35,7 +35,7 @@ const styles = {
     minWidth: '300px',
     height: '300px',
     width: '300px',
-    // marginLeft: '10px',
+    objectFit: 'cover',
   },
 };
 
