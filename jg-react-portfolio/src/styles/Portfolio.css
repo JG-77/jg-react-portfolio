@@ -1,0 +1,11 @@
+.reveal {
+  display: none;
+}
+
+/* .reveal:hover {
+  display: block;
+} */
+.card:hover ~ .reveal {
+  background-image: none;
+  display: block;
+}
