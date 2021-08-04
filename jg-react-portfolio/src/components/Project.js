@@ -33,7 +33,7 @@ export default function PortfolioContent() {
     <div
       style={{
         background:
-          'linear-gradient(180deg, rgb(32, 32, 32), rgb(0, 255, 179))',
+          'linear-gradient(180deg, rgb(32, 32, 32), rgb(4, 7, 118), rgb(0, 255, 179))',
       }}
     >
       <Header />
