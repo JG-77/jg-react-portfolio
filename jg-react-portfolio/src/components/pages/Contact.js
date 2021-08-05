@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../styles/Contact.css';
 
+//Contact  form styling and html set up
 const styles = {
   contactHead: {
     textAlign: 'center',

@@ -1,3 +1,4 @@
+/* additional styling for Portfolio section */
 .overlay {
   height: 100%;
   width: 100%;
@@ -10,4 +11,19 @@
 }
 .card:hover .overlay {
   opacity: 1;
+}
+
+.card {
+  display: inline-block;
+  margin: 20px 20px 20px 20px;
+}
+
+@media screen and (max-width: 960px) {
+  .card {
+    margin: auto;
+    display: block;
+    float: none;
+    margin-bottom: 20px;
+    min-width: 80%;
+  }
 }

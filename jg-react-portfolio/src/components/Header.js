@@ -1,4 +1,4 @@
-//element set up
+//page header set up
 import React from 'react';
 import '../styles/Header.css';
 import blueSkyline from '../images/blue-skyline.jpeg';
@@ -6,9 +6,6 @@ import blueSkyline from '../images/blue-skyline.jpeg';
 const styles = {
   headerStyle: {
     backgroundImage: `url(${blueSkyline})`,
-    //backgroundSize: 'cover',
-    //width: '100%',
-    //height: '150px',
     backgroundPosition: 'right',
   },
 };

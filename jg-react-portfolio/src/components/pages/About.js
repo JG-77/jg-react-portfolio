@@ -1,6 +1,7 @@
 import React from 'react';
 import myPic from '../../images/myPic.JPEG';
 
+//About Me section styling
 const styles = {
   aboutMeHead: {
     textAlign: 'center',
@@ -11,7 +12,7 @@ const styles = {
     border: 'solid',
     margin: '0px 20px 0px',
     fontFamily: 'arial',
-    height: '450px',
+    minHeight: '450px',
     color: 'white',
   },
   paragraph: {
@@ -21,7 +22,6 @@ const styles = {
     textIndent: '2em',
     lineHeight: '21px',
   },
-  //will be used for image
   imagediv: {
     float: 'left',
     height: '300px',
@@ -64,7 +64,7 @@ export default function About() {
         something I am proud of and like to stay in touch with. Soccer fanatic,
         vinyl collector, and car enthusiast in my spare time. I hope to one day
         travel the world and learn new languages. As I begin my career path, I
-        hope to create significant projects as well as demonstrate my
+        aspire to create significant projects as well as demonstrate my
         creativity!
       </p>
     </div>

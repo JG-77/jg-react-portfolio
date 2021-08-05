@@ -7,6 +7,7 @@ import budgetTracker from '../../images/budget-tracker-app.png';
 import fitnessTracker from '../../images/Fitness-tracker.png';
 import movieBuffs from '../../images/Movie-Buffs.png';
 
+//Project section set up and styling for each card
 const styles = {
   divSect: {
     background: 'rgba(0, 0, 0, 0.7)',
@@ -24,84 +25,64 @@ const styles = {
   },
   card: {
     border: 'solid',
-    margin: '0px 20px 20px 20px',
     color: 'white',
     width: '45%',
-    display: 'inline-block',
     minHeight: '250px',
     backgroundImage: `url(${fitnessNuts})`,
     backgroundSize: 'cover',
   },
   card2: {
     border: 'solid',
-    margin: '0px 20px 20px 20px',
     color: 'white',
     width: '45%',
-    display: 'inline-block',
-    float: 'right',
     minHeight: '250px',
     backgroundImage: `url(${noteTaker})`,
     backgroundSize: 'cover',
   },
   card3: {
     border: 'solid',
-    margin: '0px 20px 20px 20px',
     color: 'white',
     width: '45%',
-    display: 'inline-block',
     minHeight: '250px',
     backgroundImage: `url(${teamProfile})`,
     backgroundSize: 'cover',
   },
   card4: {
     border: 'solid',
-    margin: '0px 20px 20px 20px',
     color: 'white',
     width: '45%',
-    display: 'inline-block',
-    float: 'right',
     minHeight: '250px',
     backgroundImage: `url(${budgetTracker})`,
     backgroundSize: 'cover',
   },
   card5: {
     border: 'solid',
-    margin: '0px 20px 20px 20px',
     color: 'white',
     width: '45%',
-    display: 'inline-block',
     minHeight: '250px',
     backgroundImage: `url(${fitnessTracker})`,
     backgroundSize: 'cover',
   },
   card6: {
     border: 'solid',
-    margin: '0px 20px 20px 20px',
     color: 'white',
     width: '45%',
-    display: 'inline-block',
-    float: 'right',
     minHeight: '250px',
     backgroundImage: `url(${movieBuffs})`,
     backgroundSize: 'cover',
   },
-  // pTag: {
-  //   textAlign: 'justify',
-  //   margin: '0px 10px 0px',
-  // },
   anchor: {
     color: 'rgb(0, 255, 213)',
     textDecoration: 'none',
   },
   anchorApp: {
     color: 'white',
-    //textDecoration: 'none',
   },
 };
 
 export default function Portfolio() {
   return (
-    <div style={styles.divSect}>
+    <div style={styles.divSect} className="portDiv">
       <h2 style={styles.h2}>Portfolio</h2>
 
       {/* app 1 */}

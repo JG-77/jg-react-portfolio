@@ -1,6 +1,8 @@
 import React from 'react';
 import resume from '../../assets/Professional-Resume.pdf';
 import '../../styles/Resume.css';
+
+//Resume section
 const styles = {
   divSect: {
     background: 'rgba(0, 0, 0, 0.7)',
