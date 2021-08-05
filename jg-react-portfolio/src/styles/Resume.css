@@ -1,0 +1,9 @@
+@media screen and (max-width: 600px) {
+  .resumeDiv {
+    display: grid;
+    min-height: 700px;
+  }
+  .h3back {
+    margin-left: 30px;
+  }
+}

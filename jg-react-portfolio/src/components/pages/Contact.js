@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../styles/Contact.css';
 
 const styles = {
   contactHead: {
@@ -45,11 +46,29 @@ export default function Contact() {
         enctype="text/plain"
       >
         <label for="name">Name:</label> <br />
-        <input type="text" name="name" style={styles.inputs} /> <br />
+        <input
+          type="text"
+          name="name"
+          style={styles.inputs}
+          className="inputs"
+        />{' '}
+        <br />
         <label for="email">Email:</label> <br />
-        <input type="email" name="email" style={styles.inputs} /> <br />
+        <input
+          type="email"
+          name="email"
+          style={styles.inputs}
+          className="inputs"
+        />
+        <br />
         <label for="message">Message:</label> <br />
-        <input type="text" name="message" style={styles.messageInput} /> <br />
+        <input
+          type="text"
+          name="message"
+          style={styles.messageInput}
+          className="inputs"
+        />
+        <br />
         <input type="submit" value="Submit" style={styles.submit} />
       </form>
     </div>

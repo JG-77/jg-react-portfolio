@@ -1,6 +1,6 @@
 import React from 'react';
 import resume from '../../assets/Professional-Resume.pdf';
-
+import '../../styles/Resume.css';
 const styles = {
   divSect: {
     background: 'rgba(0, 0, 0, 0.7)',
@@ -41,7 +41,7 @@ const styles = {
 };
 export default function Resume() {
   return (
-    <div style={styles.divSect}>
+    <div style={styles.divSect} className="resumeDiv">
       <h2 style={styles.h2}>Resume</h2>
       <h3 style={styles.h3}>
         {`Download My `}
@@ -66,7 +66,7 @@ export default function Resume() {
           <li style={styles.li}>Responsive Design</li>
         </ul>
       </h3>
-      <h3 style={styles.back}>
+      <h3 style={styles.back} className="h3back">
         Back-end Proficencies
         <ul style={styles.ul}>
           <li style={styles.li}>Node.js</li>

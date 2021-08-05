@@ -1,5 +1,6 @@
 //page footer
 import React from 'react';
+import '../styles/Footer.css';
 
 const styles = {
   footing: {
@@ -7,6 +8,7 @@ const styles = {
     width: '100%',
     backgroundColor: 'black',
     lineHeight: '60px',
+    paddingBottom: '10px',
   },
   footerHeading: {
     textAlign: 'center',
@@ -27,7 +29,7 @@ const styles = {
 export default function Footer() {
   return (
     <div>
-      <footer style={styles.footing}>
+      <footer style={styles.footing} className="footer">
         <h2 style={styles.footerHeading}>
           <ul style={styles.ul}>
             <li>

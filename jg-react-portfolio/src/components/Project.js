@@ -8,8 +8,10 @@ import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 
-//remove body element margins on web page
+//remove body element margins on web page and make whole page use flex-wrap
 document.body.style.margin = '0px';
+
+document.body.style.flexWrap = 'wrap';
 
 export default function PortfolioContent() {
   const [currentSection, setSection] = useState('About');
