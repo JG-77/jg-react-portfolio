@@ -51,7 +51,7 @@ export default function Footer() {
             <li>
               <a
                 style={styles.anchor}
-                href="https://www.instagram.com/ese_cocho_jes/"
+                href="https://stackoverflow.com/users/16771534/jesg-77"
               >
                 <img
                   src={stackoverFlow}
