@@ -7,3 +7,15 @@
     width: fit-content;
   }
 }
+
+@media screen and (max-width: 565px) {
+  .ul {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 565px) {
+  .ul {
+    display: inline-flex;
+  }
+}
