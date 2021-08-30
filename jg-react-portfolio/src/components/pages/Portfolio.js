@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../styles/Portfolio.css';
 import fitnessNuts from '../../images/Fitness-Nuts.png';
-import noteTaker from '../../images/Note-Taker-App.png';
+import newsHawker from '../../images/News-hawker.png';
 import teamProfile from '../../images/Team-Profile-Gen.png';
 import budgetTracker from '../../images/budget-tracker-app.png';
 import fitnessTracker from '../../images/Fitness-tracker.png';
@@ -28,7 +28,7 @@ const styles = {
     color: 'white',
     width: '45%',
     minHeight: '250px',
-    backgroundImage: `url(${fitnessNuts})`,
+    backgroundImage: `url(${newsHawker})`,
     backgroundSize: 'cover',
   },
   card2: {
@@ -36,7 +36,7 @@ const styles = {
     color: 'white',
     width: '45%',
     minHeight: '250px',
-    backgroundImage: `url(${noteTaker})`,
+    backgroundImage: `url(${fitnessNuts})`,
     backgroundSize: 'cover',
   },
   card3: {
@@ -89,19 +89,15 @@ export default function Portfolio() {
 
       <div style={styles.card} className="card">
         <div className="overlay">
-          <h2 style={styles.h2} className="reveal">
-            <a
-              href="https://fitness-nuts.herokuapp.com/"
-              style={styles.anchorApp}
-            >
-              Fitness Nuts Project
+          <h2 style={styles.h2}>
+            <a href="https://news-hawker.herokuapp.com/" className="anchorApp">
+              News Hawker
             </a>
           </h2>
           <h2 style={styles.h2} className="reveal">
             <a
-              style={styles.anchor}
-              href="https://github.com/kittytaylor55/Project2.git"
-              className="reveal"
+              href="https://github.com/maxwellstickels/news-hawker"
+              className="anchor"
             >
               GitHub Repository
             </a>
@@ -114,18 +110,14 @@ export default function Portfolio() {
       <div style={styles.card2} className="card">
         <div className="overlay">
           <h2 style={styles.h2} className="reveal">
-            <a
-              href="https://rocky-waters-73289.herokuapp.com/"
-              style={styles.anchorApp}
-            >
-              Note-Taker App
+            <a href="https://fitness-nuts.herokuapp.com/" className="anchorApp">
+              Fitness Nuts
             </a>
           </h2>
           <h2 style={styles.h2} className="reveal">
             <a
-              style={styles.anchor}
-              href="https://github.com/JG-77/Note-Taker-App.git"
-              className="reveal"
+              href="https://github.com/kittytaylor55/Project2.git"
+              className="anchor"
             >
               GitHub Repository
             </a>
@@ -140,16 +132,15 @@ export default function Portfolio() {
           <h2 style={styles.h2} className="reveal">
             <a
               href="https://github.com/JG-77/Team-Profile-Generator-JG.git"
-              style={styles.anchorApp}
+              className="anchorApp"
             >
               Team Profile Generator
             </a>
           </h2>
           <h2 style={styles.h2} className="reveal">
             <a
-              style={styles.anchor}
               href="https://github.com/JG-77/Team-Profile-Generator-JG/blob/main/README.md"
-              className="reveal"
+              className="anchor"
             >
               GitHub Repository
             </a>
@@ -164,16 +155,15 @@ export default function Portfolio() {
           <h2 style={styles.h2} className="reveal">
             <a
               href="https://pwa-budget-tracker-jg.herokuapp.com/"
-              style={styles.anchorApp}
+              className="anchorApp"
             >
               Budget Tracker
             </a>
           </h2>
           <h2 style={styles.h2} className="reveal">
             <a
-              style={styles.anchor}
               href="https://github.com/JG-77/pwa_budget_tracker.git"
-              className="reveal"
+              className="anchor"
             >
               GitHub Repository
             </a>
@@ -188,16 +178,15 @@ export default function Portfolio() {
           <h2 style={styles.h2} className="reveal">
             <a
               href="https://workout-tracker-jg.herokuapp.com/"
-              style={styles.anchorApp}
+              className="anchorApp"
             >
               Fitness Tracker
             </a>
           </h2>
           <h2 style={styles.h2} className="reveal">
             <a
-              style={styles.anchor}
               href="https://github.com/JG-77/workout_tracker_app.git"
-              className="reveal"
+              className="anchor"
             >
               GitHub Repository
             </a>
@@ -212,16 +201,15 @@ export default function Portfolio() {
           <h2 style={styles.h2} className="reveal">
             <a
               href="https://jg-77.github.io/Movie-Buffs-Group-Project/"
-              style={styles.anchorApp}
+              className="anchorApp"
             >
               Movie Buffs Project
             </a>
           </h2>
           <h2 style={styles.h2} className="reveal">
             <a
-              style={styles.anchor}
               href="https://github.com/JG-77/Movie-Buffs-Group-Project.git"
-              className="reveal"
+              className="anchor"
             >
               GitHub Repository
             </a>
