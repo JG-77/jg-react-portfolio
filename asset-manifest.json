@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/jg-react-portfolio/static/css/main.65b734cd.chunk.css",
-    "main.js": "/jg-react-portfolio/static/js/main.f01ebfe6.chunk.js",
-    "main.js.map": "/jg-react-portfolio/static/js/main.f01ebfe6.chunk.js.map",
+    "main.js": "/jg-react-portfolio/static/js/main.fcd531ec.chunk.js",
+    "main.js.map": "/jg-react-portfolio/static/js/main.fcd531ec.chunk.js.map",
     "runtime-main.js": "/jg-react-portfolio/static/js/runtime-main.a345f689.js",
     "runtime-main.js.map": "/jg-react-portfolio/static/js/runtime-main.a345f689.js.map",
     "static/js/2.fdd605bc.chunk.js": "/jg-react-portfolio/static/js/2.fdd605bc.chunk.js",
@@ -14,7 +14,7 @@
     "static/media/Fitness-tracker.d9c4e245.png": "/jg-react-portfolio/static/media/Fitness-tracker.d9c4e245.png",
     "static/media/Movie-Buffs.02b25ff8.png": "/jg-react-portfolio/static/media/Movie-Buffs.02b25ff8.png",
     "static/media/News-hawker.0b927762.png": "/jg-react-portfolio/static/media/News-hawker.0b927762.png",
-    "static/media/Professional-Resume.2426c420.pdf": "/jg-react-portfolio/static/media/Professional-Resume.2426c420.pdf",
+    "static/media/Professional-Resume-jg.aecd66f5.pdf": "/jg-react-portfolio/static/media/Professional-Resume-jg.aecd66f5.pdf",
     "static/media/Team-Profile-Gen.600e2306.png": "/jg-react-portfolio/static/media/Team-Profile-Gen.600e2306.png",
     "static/media/blue-skyline.b2c52ea0.jpeg": "/jg-react-portfolio/static/media/blue-skyline.b2c52ea0.jpeg",
     "static/media/budget-tracker-app.a519c193.png": "/jg-react-portfolio/static/media/budget-tracker-app.a519c193.png",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.a345f689.js",
     "static/js/2.fdd605bc.chunk.js",
     "static/css/main.65b734cd.chunk.css",
-    "static/js/main.f01ebfe6.chunk.js"
+    "static/js/main.fcd531ec.chunk.js"
   ]
 }
